@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Home</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/styles.css" media="screen">
+    <link href='https://fonts.googleapis.com/css?family=Playfair+Display+SC:700,400,700italic,400italic' rel='stylesheet' type='text/css'>
+    <script src="https://use.fontawesome.com/c3dcd2a73b.js"></script>
+  <body>
+    <header class="clearfix">
+      <div class="logo">
+        <a href="#home"><img src="images/logo.png" alt="my logo"/></a>
+      </div>
+      <nav>
+        <ul class="topnav">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About Me</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li class="icon">
+            <a href="javascript:void(0);" onclick="myFunction()">&#9776;</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <!-- home section -->
+    <section id="home">
+      <h1>Safi Gharwal</h1>
+      <hr>
+      <h3>Front-End-Web-Developer</h3>
+    </section>
+    <!--
+
+    Contains all content to display center
+
+    -->
+    <div class="container">
+
+    <!-- about section -->
+    <section id="about">
+      <div class="self-container">
+        <img src="images/Safi3d.png" alt="my picture" />
+      </div>
+      <article class="bio">
+        <h3>Front-End-Web-Developer in Training</h3>
+        <hr>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </p>
+        <h3>Aspiring Full-Stack (Master JavaScript Engineer) </h3>
+        <hr>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </p>
+      </article>
+    </section>
+    <!-- portfolio section -->
+    <section id="portfolio">
+      <article class="project">
+        <div class="morph pic">
+          <img src="images/Capture.jpg" alt="portfolio">
+        </div>
+        <div class="pic-text">
+          <h3>Portfolio Design</h3>
+          <p>
+            This My responsive Portfolio that has been designed with pure Css and JavaScript without any framworks.
+            Link to my Github Repository!
+          </p>
+        </div>
+      </article>
+      <article class="project">
+        <div class="morph pic">
+          <img src="images/underconst.jpg" alt="java menu">
+        </div>
+        <div class="pic-text">
+          <h3>Java-Order Menu Program</h3>
+          <p>
+            This Work is under construction and will be posted as soon as available. Please check back when all work is finished.
+          </p>
+        </div>
+      </div>
+      </article>
+      <article class="project">
+        <div class="morph pic">
+          <img src="images/brickbreaker.jpg" alt="Brickbreaker">
+        </div>
+        <div class="pic-text">
+          <h3>Brick-breaker Game - JavaScript</h3>
+          <p>
+            The Brick Breaker game That I redesigned with Pure JavaScript. With features such as extra lives , time-count and score-count.
+          </p>
+        </div>
+      </article>
+      <article class="project">
+        <div class="morph pic">
+          <img src="images/navbar.jpg" alt="navigation bar">
+        </div>
+        <div class="pic-text">
+          <h3>Nagivation Bar - Pure Css</h3>
+          <p>
+            A fixed navigation that sticks to the top of the page and is not influenced by scrolling of the page.
+          </p>
+        </div>
+      </article>
+    </section>
+    <!-- skills section -->
+    <section id="skills">
+      <h2>My Technical Skills</h2>
+      <article class="programing">
+        <h3>Programing</h3>
+        <div class="progressbar">
+            <span>HTML5</span>
+            <div id="html"></div>
+        </div>
+        <div class="progressbar">
+            <span>JavaScript</span>
+            <div id="js"></div>
+        </div>
+        <div class="progressbar">
+            <span>jQuerry</span>
+            <div id="jQuerry"></div>
+        </div>
+        <div class="progressbar">
+            <span>Java</span>
+            <div id="java"></div>
+        </div>
+      </article>
+      <article class="design">
+        <h3>Design And Tools</h3>
+        <div class="progressbar">
+            <span>CSS3</span>
+            <div id="css"></div>
+        </div>
+        <div class="progressbar">
+            <span>Photoshop</span>
+            <div id="ptshop"></div>
+        </div>
+        <div class="progressbar">
+            <span>Illustrater</span>
+            <div id="illus"></div>
+        </div>
+        <div class="progressbar">
+            <span>Github</span>
+            <div id="github"></div>
+        </div>
+      </article>
+    </section>
+    <!-- contact section -->
+    <section id="contact">
+      <aside class="my-info">
+        <div class="info-pic">
+          <img src="images/safi.jpg" alt="beach">
+        </div>
+        <h2>Contact Information</h2>
+        <p>
+          <a href="mailto:safi.gharwal@gmail.com?Subject=Hello%20again" target="_top"><span><i class="fa fa-envelope-o fa-fw" aria-hidden="true"></i></span>safi.gharwal@gmail.com</a>
+        </p>
+        <p>
+          <a href="tel:647-302-0305"><span><i class="fa fa-phone fa-fw" aria-hidden="true"></i></span>647-302-0305</a>
+        </p>
+        <ul class="social-icons">
+          <li><a href="#"><i class="fa fa-twitter-square fa-2x fa-fw" aria-hidden="true"></i>Twitter</a></li>
+          <li><a href="#"><i class="fa fa-linkedin-square fa-2x fa-fw" aria-hidden="true"></i>LinkedIn</a></li>
+          <li><a href="#"><i class="fa fa-github-square fa-2x fa-fw" aria-hidden="true"></i>Github</a></li>
+          <li><a href="#"><i class="fa fa-facebook-square fa-2x fa-fw" aria-hidden="true"></i>Facebook</a></li>
+        </ul>
+      </aside>
+      <div class="v-separator"></div>
+      <form>
+        <h3>Get in Touch</h3>
+        <p>
+          Contact me today and get a response within 24 hours
+        </p>
+        <input name="name" type="text" class="feedback-input" placeholder="Name" />
+        <input name="email" type="text" class="feedback-input" placeholder="Email" />
+        <textarea name="text" class="feedback-input" placeholder="Comment"></textarea>
+        <input type="submit" value="SUBMIT"/>
+      </form>
+    </section>
+  </div><!--end of container -->
+    <script>
+      function myFunction() {
+          document.getElementsByClassName("topnav")[0].classList.toggle("responsive");
+          style.cssText ="-webkit-transition: all 0.5s ease-in-out;";
+      }
+    </script>
+    <footer>
+      <p>
+        Safi Gharwal All Rights Reserved &copy 2016
+      </p>
+      <ul class="footer-icons">
+        <li><a href="#"><i class="fa fa-twitter-square fa-2x fa-fw" aria-hidden="true"></i>Twitter</a></li>
+        <li><a href="#"><i class="fa fa-linkedin-square fa-2x fa-fw" aria-hidden="true"></i>LinkedIn</a></li>
+        <li><a href="#"><i class="fa fa-github-square fa-2x fa-fw" aria-hidden="true"></i>Github</a></li>
+        <li><a href="#"><i class="fa fa-facebook-square fa-2x fa-fw" aria-hidden="true"></i>Facebook</a></li>
+      </ul>
+    </footer>
+
+  </body>
+</html>
