@@ -16,12 +16,15 @@ a{
   overflow: auto;
   zoom: 1;
 }
+mark{
+  /*background-color: red;*/
+}
 /*Navbar Styles
 ========================*/
 header {
   width: 100%;
   position: fixed;
-  background-color: #ffffff;
+  background-color: #239090;
   top: 0;
   z-index: 1111;
 }
