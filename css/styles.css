@@ -24,10 +24,18 @@ mark{
 header {
   width: 100%;
   position: fixed;
-  background-color: #239090;
+  background-color:	#4747ff;
   top: 0;
   z-index: 1111;
+  opacity: .2;
+  -webkit-transition-duration: 0.7s;
+  transition-duration: 0.7s;
 }
+header:hover{
+  opacity: 1;
+}
+
+
 .logo {
   display: inline-block;
   float: left;
@@ -38,10 +46,10 @@ header {
   width: 80px;
 }
 nav {
-  margin:1em .5em .3em 0;
+  margin:.7em .5em 5px 0;
   display: inline;
   float: right;
-  font-size: 1.3em;
+  font-size: 1.4em;
 
 }
 nav ul li {
@@ -54,12 +62,12 @@ nav ul li {
   align-self:center;
   text-decoration: none;
   margin-right: .7em;
-  color: #333;
-  transition: border-bottom .2s;
+  color: #ffff47;
+  transition: border-bottom .3s;
 }
 .topnav a:hover {
-  border-bottom: 2px solid tomato;
-  color: tomato;
+  border-bottom: 2px solid #fff;
+  color: #fff;
   cursor: pointer;
 }
 .icon {
@@ -140,7 +148,7 @@ align-items: stretch;
 #about article p {
   text-indent: 2em;
   font-size: 1em;
-  line-height: 1.2em;
+  line-height: 1em;
   font-weight: normal;
   color: #333;
   padding: .6em;
@@ -560,4 +568,20 @@ form {
   margin-bottom: 2em;
 
 }
+}
+
+@media screen and (max-width:500px) {
+
+#about article p {
+  font-size: 5vw;
+  text-indent: 1em;
+  text-align: left;
+}
+
+.my-info p {
+margin-left: 10px;
+font-size: 6vw;
+line-height: 1.2em;
+}
+
 }
