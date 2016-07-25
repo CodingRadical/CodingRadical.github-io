@@ -24,10 +24,10 @@ mark{
 header {
   width: 100%;
   position: fixed;
-  background-color:	#4747ff;
+  background-color:	#0094ca;
   top: 0;
   z-index: 1111;
-  opacity: .2;
+  opacity: .5;
   -webkit-transition-duration: 0.7s;
   transition-duration: 0.7s;
 }
@@ -46,7 +46,7 @@ header:hover{
   width: 80px;
 }
 nav {
-  margin:.7em .5em 5px 0;
+  margin:.4em .5em 5px 0;
   display: inline;
   float: right;
   font-size: 1.4em;
@@ -62,13 +62,14 @@ nav ul li {
   align-self:center;
   text-decoration: none;
   margin-right: .7em;
-  color: #ffff47;
-  transition: border-bottom .3s;
+  color: #fff;
+  transition: border-bottom .2s;
 }
 .topnav a:hover {
-  border-bottom: 2px solid #fff;
+  border-bottom: 3px solid tomato;
   color: #fff;
   cursor: pointer;
+  transition: border-bottom .3s;
 }
 .icon {
   display:none;
@@ -577,7 +578,13 @@ form {
   text-indent: 1em;
   text-align: left;
 }
-
+#skills h2{
+  text-align: left;
+  margin-left: 5vw;
+}
+.social-icons {
+text-align: left;
+}
 .my-info p {
 margin-left: 10px;
 font-size: 6vw;
